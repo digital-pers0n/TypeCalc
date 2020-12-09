@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE18CC9C2580FFF100A8CC13 /* TYPWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE18CC9A2580FFF100A8CC13 /* TYPWindowController.m */; };
+		CE18CC9D2580FFF100A8CC13 /* TYPWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE18CC9B2580FFF100A8CC13 /* TYPWindowController.xib */; };
+		CE66EBA8257E627800E3CBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66EBA7257E627800E3CBFB /* AppDelegate.m */; };
+		CE66EBAB257E627800E3CBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66EBAA257E627800E3CBFB /* main.m */; };
+		CE66EBAD257E627800E3CBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE66EBAC257E627800E3CBFB /* Assets.xcassets */; };
+		CE66EBB0257E627800E3CBFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE66EBAE257E627800E3CBFB /* MainMenu.xib */; };
+		CE66EBBA257E631D00E3CBFB /* Calculate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE66EBB9257E631D00E3CBFB /* Calculate.framework */; };
+		CE66EBBD257E64A700E3CBFB /* TYPCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66EBBC257E64A700E3CBFB /* TYPCalculator.m */; };
+		CE66EBBF257E6E3F00E3CBFB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE66EBBE257E6E3F00E3CBFB /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE18CC992580FFF000A8CC13 /* TYPWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPWindowController.h; sourceTree = "<group>"; };
+		CE18CC9A2580FFF100A8CC13 /* TYPWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPWindowController.m; sourceTree = "<group>"; };
+		CE18CC9B2580FFF100A8CC13 /* TYPWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYPWindowController.xib; sourceTree = "<group>"; };
+		CE66EBA3257E627800E3CBFB /* TypeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66EBA6257E627800E3CBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE66EBA7257E627800E3CBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE66EBAA257E627800E3CBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE66EBAC257E627800E3CBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE66EBAF257E627800E3CBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE66EBB1257E627800E3CBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE66EBB7257E630400E3CBFB /* CalculatePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatePrivate.h; sourceTree = "<group>"; };
+		CE66EBB9257E631D00E3CBFB /* Calculate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Calculate.framework; path = ../../../../../../System/Library/PrivateFrameworks/Calculate.framework; sourceTree = "<group>"; };
+		CE66EBBB257E64A700E3CBFB /* TYPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPCalculator.h; sourceTree = "<group>"; };
+		CE66EBBC257E64A700E3CBFB /* TYPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPCalculator.m; sourceTree = "<group>"; };
+		CE66EBBE257E6E3F00E3CBFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE66EBA0257E627800E3CBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66EBBA257E631D00E3CBFB /* Calculate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE66EB9A257E627800E3CBFB = {
+			isa = PBXGroup;
+			children = (
+				CE66EBA5257E627800E3CBFB /* TypeCalc */,
+				CE66EBA4257E627800E3CBFB /* Products */,
+				CE66EBB8257E631C00E3CBFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE66EBA4257E627800E3CBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE66EBA3257E627800E3CBFB /* TypeCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE66EBA5257E627800E3CBFB /* TypeCalc */ = {
+			isa = PBXGroup;
+			children = (
+				CE18CC992580FFF000A8CC13 /* TYPWindowController.h */,
+				CE18CC9A2580FFF100A8CC13 /* TYPWindowController.m */,
+				CE18CC9B2580FFF100A8CC13 /* TYPWindowController.xib */,
+				CE66EBB7257E630400E3CBFB /* CalculatePrivate.h */,
+				CE66EBBB257E64A700E3CBFB /* TYPCalculator.h */,
+				CE66EBBC257E64A700E3CBFB /* TYPCalculator.m */,
+				CE66EBA6257E627800E3CBFB /* AppDelegate.h */,
+				CE66EBA7257E627800E3CBFB /* AppDelegate.m */,
+				CE66EBAC257E627800E3CBFB /* Assets.xcassets */,
+				CE66EBAE257E627800E3CBFB /* MainMenu.xib */,
+				CE66EBB1257E627800E3CBFB /* Info.plist */,
+				CE66EBBE257E6E3F00E3CBFB /* LICENSE */,
+				CE66EBA9257E627800E3CBFB /* Supporting Files */,
+			);
+			path = TypeCalc;
+			sourceTree = "<group>";
+		};
+		CE66EBA9257E627800E3CBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE66EBAA257E627800E3CBFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE66EBB8257E631C00E3CBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE66EBB9257E631D00E3CBFB /* Calculate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE66EBA2257E627800E3CBFB /* TypeCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE66EBB4257E627800E3CBFB /* Build configuration list for PBXNativeTarget "TypeCalc" */;
+			buildPhases = (
+				CE66EB9F257E627800E3CBFB /* Sources */,
+				CE66EBA0257E627800E3CBFB /* Frameworks */,
+				CE66EBA1257E627800E3CBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypeCalc;
+			productName = TypeCalc;
+			productReference = CE66EBA3257E627800E3CBFB /* TypeCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE66EB9B257E627800E3CBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "digital-person";
+				TargetAttributes = {
+					CE66EBA2257E627800E3CBFB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE66EB9E257E627800E3CBFB /* Build configuration list for PBXProject "TypeCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE66EB9A257E627800E3CBFB;
+			productRefGroup = CE66EBA4257E627800E3CBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE66EBA2257E627800E3CBFB /* TypeCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE66EBA1257E627800E3CBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66EBBF257E6E3F00E3CBFB /* LICENSE in Resources */,
+				CE18CC9D2580FFF100A8CC13 /* TYPWindowController.xib in Resources */,
+				CE66EBAD257E627800E3CBFB /* Assets.xcassets in Resources */,
+				CE66EBB0257E627800E3CBFB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE66EB9F257E627800E3CBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE66EBBD257E64A700E3CBFB /* TYPCalculator.m in Sources */,
+				CE18CC9C2580FFF100A8CC13 /* TYPWindowController.m in Sources */,
+				CE66EBAB257E627800E3CBFB /* main.m in Sources */,
+				CE66EBA8257E627800E3CBFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE66EBAE257E627800E3CBFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE66EBAF257E627800E3CBFB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE66EBB2257E627800E3CBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE66EBB3257E627800E3CBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE66EBB5257E627800E3CBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = TypeCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "void.digital-person.TypeCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE66EBB6257E627800E3CBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = TypeCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "void.digital-person.TypeCalc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE66EB9E257E627800E3CBFB /* Build configuration list for PBXProject "TypeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66EBB2257E627800E3CBFB /* Debug */,
+				CE66EBB3257E627800E3CBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE66EBB4257E627800E3CBFB /* Build configuration list for PBXNativeTarget "TypeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66EBB5257E627800E3CBFB /* Debug */,
+				CE66EBB6257E627800E3CBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE66EB9B257E627800E3CBFB /* Project object */;
+}
