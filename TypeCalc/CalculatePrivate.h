@@ -13,4 +13,4 @@ enum {
 } CalculateFlags;
 
 // Returns 1 on success
-int CalculatePerformExpression(char *expr, int significantDigits, int flags, char *answer);
+int CalculatePerformExpression(const char *expr, int significantDigits, int flags, char *answer);
