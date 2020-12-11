@@ -7,20 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "TYPWindowController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    TYPWindowController *_appWindowController;
+}
 
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    _appWindowController = [[TYPWindowController alloc] init];
+    [_appWindowController showWindow:nil];
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)app {
+    return YES;
 }
 
 
