@@ -34,6 +34,7 @@
 		CE66EBBB257E64A700E3CBFB /* TYPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPCalculator.h; sourceTree = "<group>"; };
 		CE66EBBC257E64A700E3CBFB /* TYPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPCalculator.m; sourceTree = "<group>"; };
 		CE66EBBE257E6E3F00E3CBFB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CEF771542583C7AF00BC68F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		CE66EBA9257E627800E3CBFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEF771542583C7AF00BC68F0 /* README.md */,
 				CE66EBAA257E627800E3CBFB /* main.m */,
 			);
 			name = "Supporting Files";
