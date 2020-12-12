@@ -17,6 +17,15 @@
 
 @implementation TYPCalculator
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _expression = @"";
+    }
+    return self;
+}
+
 - (BOOL)validateExpression:(inout NSString **)string
                      error:(out NSError **)outError
 {
