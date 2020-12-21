@@ -67,7 +67,7 @@
                     <textField focusRingType="none" verticalHuggingPriority="750" misplaced="YES" id="Aj8-f7-Ssc">
                         <rect key="frame" x="0.0" y="154" width="180" height="26"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="right" placeholderString="7 * 8" drawsBackground="YES" id="NV1-dZ-X3P">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="left" placeholderString="7 * 8" drawsBackground="YES" id="NV1-dZ-X3P">
                             <font key="font" metaFont="system" size="17"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
