@@ -31,5 +31,13 @@
     return YES;
 }
 
+- (IBAction)copy:(id)sender {
+    NSString *result = _appWindowController.latestResult;
+    if (!result) return;
+    
+    NSPasteboard *pboard = [NSPasteboard generalPasteboard];
+    [pboard clearContents];
+    [pboard writeObjects:@[result]];
+}
 
 @end

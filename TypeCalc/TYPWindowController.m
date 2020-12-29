@@ -9,7 +9,10 @@
 #import "TYPWindowController.h"
 #import "TYPCalculator.h"
 
-@interface TYPWindowController ()
+@interface TYPWindowController () {
+    NSString *_latestResult;
+}
+
 @property (nonatomic, readonly) TYPCalculator *calculator;
 @property (nonatomic) NSString *history;
 @end
@@ -28,9 +31,10 @@
 
 - (IBAction)calculate:(id)sender {
     NSMutableString *result = [[NSMutableString alloc] init];
+    _latestResult = _calculator.result;
     [result appendString:_calculator.expression];
     [result appendString:@" =\n"];
-    [result appendString:_calculator.result];
+    [result appendString:_latestResult];
     [result appendString:@"\n\n"];
     [result appendString:_history];
     self.history = result;
