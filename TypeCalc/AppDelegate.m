@@ -40,4 +40,21 @@
     [pboard writeObjects:@[result]];
 }
 
+- (IBAction)saveDocumentAs:(id)sender {
+    NSString *history = _appWindowController.history;
+    if (!history) return;
+    
+    NSSavePanel *panel = [NSSavePanel savePanel];
+    panel.allowedFileTypes = @[ @"txt" ];
+    
+    if ([panel runModal] != NSModalResponseOK) return;
+    
+    NSError *error = nil;
+    if (![history writeToURL:panel.URL atomically:YES
+                    encoding:NSUTF8StringEncoding error:&error])
+    {
+        [NSApp presentError:error];
+    }
+}
+
 @end

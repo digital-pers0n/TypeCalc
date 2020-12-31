@@ -14,7 +14,7 @@
 }
 
 @property (nonatomic, readonly) TYPCalculator *calculator;
-@property (nonatomic) NSString *history;
+@property (nonatomic, readwrite) NSString *history;
 @end
 
 @implementation TYPWindowController

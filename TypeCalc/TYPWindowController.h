@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TYPWindowController : NSWindowController
 
 @property (readonly, nonatomic, nullable) NSString *latestResult;
+@property (readonly, nonatomic, nullable) NSString *history;
 
 @end
 
