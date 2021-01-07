@@ -124,6 +124,12 @@
                                     <action selector="delete:" target="-1" id="0Mk-Ml-PaM"/>
                                 </connections>
                             </menuItem>
+                            <menuItem title="Clear" id="rpL-1c-Qov">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="clear:" target="Voe-Tx-rLC" id="5yp-5E-24w"/>
+                                </connections>
+                            </menuItem>
                             <menuItem title="Select All" keyEquivalent="a" id="Ruw-6m-B2m">
                                 <connections>
                                     <action selector="selectAll:" target="-1" id="VNm-Mi-diN"/>

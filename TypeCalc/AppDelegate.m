@@ -57,4 +57,8 @@
     }
 }
 
+- (IBAction)clear:(id)sender {
+    [_appWindowController clearHistory];
+}
+
 @end

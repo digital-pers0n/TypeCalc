@@ -40,4 +40,8 @@
     self.history = result;
 }
 
+- (void)clearHistory {
+    self.history = @"";
+}
+
 @end

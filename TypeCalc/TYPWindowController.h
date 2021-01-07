@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, nonatomic, nullable) NSString *latestResult;
 @property (readonly, nonatomic, nullable) NSString *history;
 
+- (void)clearHistory;
+
 @end
 
 NS_ASSUME_NONNULL_END
